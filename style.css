@@ -1,0 +1,140 @@
+body {
+    margin:0;
+    padding-top: 800px;
+    
+}
+
+.TBS{ 
+    border-radius: 50%;
+    width:175px;
+    margin-top:50px;
+}
+
+#welcome {
+    position: absolute;
+    color: white;
+    bottom: 0;
+    background: radial-gradient(darkblue,blue,skyblue,lightblue,white);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: 300;
+}
+
+#name {
+    font-size:30px;
+    line-height: 1.2;
+    font-family: monospace;
+    color:skyblue;
+}
+
+h2 {
+    font-size:30px;
+    font-weight: 300;
+    line-height: 1.2;
+    font-family: monospace;
+    color: darkblue;
+}
+
+.parallax-inner {
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.menu {
+    position: fixed;
+    width:100%;
+    font-family: papyrus;
+    background: skyblue;
+    margin-top: 0px;
+    top:0px;
+    z-index: 10; 
+    cursor: pointer;
+    
+}
+
+.links {
+    color:darkblue;
+    padding-right: 25px;
+    padding-left: 33px;
+    border-bottom: solid;
+    font-size:20px;
+    display: inline;
+}
+
+.links:hover {
+    background-color:darkblue;
+    color:white;
+    border-bottom: dotted lightblue;
+    font-size:27px;
+}
+
+#bio {
+  background: radial-gradient(darkblue,blue,skyblue,lightblue,white);
+    padding: 50px;
+    text-align: center;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#history {
+    margin-left: 550px;
+}
+
+.line {
+    height: 6px;
+    background-color:navy;
+    width:70px;
+    margin: 8px auto;
+}
+
+#videos {
+    background: radial-gradient(darkblue,blue,skyblue,lightblue,white);
+    padding: 50px;
+    text-align: center;
+}
+
+#works {
+  background: radial-gradient(darkblue,blue,skyblue,lightblue,white);
+    padding: 50px;
+    text-align: center;
+}
+
+#writings {
+    background: radial-gradient(darkblue,blue,skyblue,lightblue,white);
+    padding: 50px;
+    text-align: center;
+}
+
+#contacts {
+  background: radial-gradient(darkblue,blue,skyblue,lightblue,white);
+  padding: 50px;
+  text-align: center;
+
+}
+
+h1 {
+    color:navy;
+}
+
+#first {
+    color:lightblue;
+}
+
+#contacts iframe {
+    width:100%;
+}
+
+.links a {
+  text-decoration: none;
+}
